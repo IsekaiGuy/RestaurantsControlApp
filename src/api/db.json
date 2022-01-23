@@ -1,0 +1,70 @@
+{
+  "restaurants": [
+    {
+      "name": "Test",
+      "id": 0
+    },
+    {
+      "name": "Valve",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": 0,
+      "status": "",
+      "type": "",
+      "sum": 0,
+      "restaurantId": 0,
+      "id": 0
+    },
+    {
+      "orderNumber": 1,
+      "status": "new",
+      "type": "delivery",
+      "sum": 2000,
+      "restaurantId": 1,
+      "id": 1
+    },
+    {
+      "orderNumber": 2,
+      "status": "assembling",
+      "type": "delivery",
+      "sum": 2000,
+      "restaurantId": 1,
+      "id": 2
+    },
+    {
+      "orderNumber": 3,
+      "status": "cooking",
+      "type": "delivery",
+      "sum": 2000,
+      "restaurantId": 1,
+      "id": 3
+    },
+    {
+      "orderNumber": 4,
+      "status": "new",
+      "type": "hall",
+      "sum": 2000,
+      "restaurantId": 1,
+      "id": 4
+    },
+    {
+      "orderNumber": 5,
+      "status": "done",
+      "type": "hall",
+      "sum": 2000,
+      "restaurantId": 1,
+      "id": 5
+    },
+    {
+      "orderNumber": 6,
+      "status": "new",
+      "type": "delivery",
+      "sum": 2000,
+      "restaurantId": 1,
+      "id": 6
+    }
+  ]
+}
